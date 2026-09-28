@@ -1,0 +1,17 @@
+{
+  "budget": 2,
+  "bad_byte_code": "E_BAD_BYTE",
+  "bad_char_code": "E_BAD_CHAR",
+  "bad_pad_code": "E_BAD_PAD",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "pending": [], "out": [], "dec": [], "decOut": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "put", "bytes": [77, 97, 110] },
+    { "id": 2, "kind": "put", "bytes": [103, 101] },
+    { "id": 3, "kind": "put", "bytes": [32, 10] },
+    { "id": 4, "kind": "take", "text": "TWFu" },
+    { "id": 5, "kind": "take", "text": "Z2U=" },
+    { "id": 6, "kind": "take", "text": "g" },
+    { "id": 7, "kind": "put", "bytes": [33, 34, 35] }
+  ]
+}
